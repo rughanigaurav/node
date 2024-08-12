@@ -1,15 +1,12 @@
 {
-  "name": "node",
+  "name": "node-docker-compose-hello",
   "version": "1.0.0",
-  "description": "Create a sample node project in ubuntu",
+  "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "dependencies": {
-    "express": "^4.19.2"
+    "express": "^4.17.1"
   }
 }
