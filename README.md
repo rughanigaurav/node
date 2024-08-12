@@ -60,11 +60,11 @@ docker run hello-world
 $ project Dir > git clone https://github.com/rughanigaurav/node.git
 ```
 
-#6) After that run the project with below command
+#6) After that start docker images and run the project with below command
 
 ```bash
 
-$ project Dir > docker-compose up
+$ project Dir > docker-compose up --build
 
 ```
 

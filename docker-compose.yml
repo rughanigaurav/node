@@ -11,22 +11,9 @@ services:
       - "3000:3000"
     command: sh -c "
 
-      echo 'Installing dependencies' && \
-
-      echo '' && \
-      echo '' && \
-      echo 'Running npm i' && \
-      echo '' && \
-      echo '' && \
-      npm install && \
-      echo '' && \
-      echo '' && \
-      echo '' && \
-      echo 'Starting application' && \ \ \ \ \ \
-      echo '' && \
-      echo '' && \
-      echo 'Running npm start' && \ \ \ \ \ \
-      echo '' && \
-      echo '' && \
+      echo 'Installing dependencies' && \ echo '' && \ echo '' && \ echo 'Running npm i' && \ echo '' && \ echo '' && \
+      npm install && \ echo '' && \ echo '' && \ echo '' && \
+      echo 'Starting application' && \ echo '' && \ echo '' && \
+      echo 'Running npm start' && \ echo '' && \ echo '' && \
       npm start
       "
