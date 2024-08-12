@@ -60,16 +60,6 @@ docker run hello-world
 $ project Dir > git clone https://github.com/rughanigaurav/node.git
 ```
 
-#5) After clone use below commands to initialize node packages
-
-```bash
-
-$ project Dir > npm init -y
-
-$ project Dir > npm install express  (install framework)
-
-```
-
 #6) After that build and run the project
 
 ```bash
