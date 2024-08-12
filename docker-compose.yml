@@ -9,4 +9,24 @@ services:
       - /usr/src/app/node_modules
     ports:
       - "3000:3000"
-    command: sh -c "npm install && npm start"
+    command: sh -c "
+
+      echo 'Installing dependencies' && \
+
+      echo '' && \
+      echo '' && \
+      echo 'Running npm i' && \
+      echo '' && \
+      echo '' && \
+      npm install && \
+      echo '' && \
+      echo '' && \
+      echo '' && \
+      echo 'Starting application' && \ \ \ \ \ \
+      echo '' && \
+      echo '' && \
+      echo 'Running npm start' && \ \ \ \ \ \
+      echo '' && \
+      echo '' && \
+      npm start
+      "
