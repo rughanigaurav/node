@@ -4,7 +4,6 @@ services:
   app:
     build:
       context: .
-      dockerfile: Dockerfile
     image: node:18
     working_dir: /usr/src/app
     ports:
