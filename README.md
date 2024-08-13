@@ -2,7 +2,7 @@
 
 Install docker and docker-composer in ubuntu and Create a sample node project in ubuntu
 
-#1) Install Docker in ubuntu
+#1> Install Docker in ubuntu
 
 ```bash
 sudo apt-get update
@@ -28,7 +28,7 @@ sudo apt-get install docker-ce docker-ce-cli containerd.io docker-compose-plugin
 sudo docker run hello-world
 ```
 
-#2) install docker-compose in ubuntu
+#2> install docker-compose in ubuntu
 
 ```bash
 sudo curl -L "https://github.com/docker/compose/releases/download/1.29.2/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
@@ -38,7 +38,7 @@ sudo chmod +x /usr/local/bin/docker-compose
 docker-compose --version
 ```
 
-#3) Remove sudo from Docker
+#3> Remove sudo from Docker
 
 ```bash
 sudo groupadd docker
@@ -52,7 +52,7 @@ docker run hello-world
 
 > **_'You successfully Installed the Docker!'_**
 
-#4) Clone The Repository with HTTPS
+#4> Clone The Repository with HTTPS
 
 ```bash
 ---> Use Below Command for clone
@@ -60,7 +60,7 @@ docker run hello-world
 $ project Dir > git clone https://github.com/rughanigaurav/node.git
 ```
 
-#6) After that start docker images and run the project with below command
+#6> After that start docker images and run the project with below command
 
 ```bash
 $ project Dir > docker-compose build
