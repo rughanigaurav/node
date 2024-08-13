@@ -63,8 +63,8 @@ $ project Dir > git clone https://github.com/rughanigaurav/node.git
 #6) After that start docker images and run the project with below command
 
 ```bash
-
-$ project Dir > docker-compose up --build
+$ project Dir > docker-compose build
+$ project Dir > docker-compose up
 
 ```
 
