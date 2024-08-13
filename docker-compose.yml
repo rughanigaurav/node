@@ -9,4 +9,4 @@ services:
       - /usr/src/app/node_modules
     ports:
       - "3000:3000" #bind 3000 port for application
-    command: sh -c "npm install && npm start"
+    command: "npm start"
